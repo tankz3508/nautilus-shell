@@ -1,0 +1,12 @@
+CompileFlags:
+    CompilationDatabase: build
+    Add: [-std=c23, -Wall]
+
+Index:
+    Background: Build
+
+Diagnostics:
+    ClangTidy:
+        CheckOptions:
+            modernize-*: true
+            bugprone-*: true
