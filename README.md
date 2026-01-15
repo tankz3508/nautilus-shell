@@ -4,8 +4,8 @@ A robust, minimalist Unix shell written in C.
 ## Overview
 A simple shell implementation that handles redirections, piping and environment variables.
 
-* It handles simple commands (like `ls`, `cat` or `grep` via ``execvp()`` in a child process)
-* You can use pipes (|) to chain commands together
+* Nautilus handles simple commands (like `ls`, `cat` or `grep` via ``execvp()`` in a child process).
+* You can use pipes (|) to chain commands together.
 * '>' can be used to redirect output (e.g the output of `ls`) to a file specified.
 * Nautilus automatically unwraps all environment variables ($USER, $HOME, etc.) and replaces them with their values.
 * The `cd` command is handled by the ``chdir()`` function.
