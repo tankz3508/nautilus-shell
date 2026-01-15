@@ -43,6 +43,7 @@ int main() {
             perror("getcwd() error");
             return 1;
         }
+        
         if (fgets(input, sizeof(input), stdin) == NULL)
             break;
 
